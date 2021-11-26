@@ -16,4 +16,4 @@ jobs:
     steps:
       - name: Install libraries
         run:
-          npm test
+          npm run test
