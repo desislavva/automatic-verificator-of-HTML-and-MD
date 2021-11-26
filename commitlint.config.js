@@ -4,6 +4,6 @@ module.exports = {
     ],
     rules: {
         "type-enum": [2, "always", ["docs", "feat", "fix", "refactor"]],
-        "body-case": [2, "always", ["sentence-case"]]
+        "subject-case": [2, "always", ["sentence-case"]]
     }
 }
