@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx --no -- commitlint --edit && npx @ls-lint/ls-lint",
+    "test": "node_modules/.bin/ls-lint",
     "prepare": "husky install"
   },
   "author": "",
