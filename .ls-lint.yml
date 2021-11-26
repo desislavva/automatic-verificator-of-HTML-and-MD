@@ -4,3 +4,4 @@ ls:
 
 ignore:
     - node_modules
+    - README.md
