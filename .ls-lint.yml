@@ -1,0 +1,6 @@
+ls:
+  .md: regex:[A-Z][a-z]+ - [A-Za-z0-9 -_]+
+  .html: regex:[A-Z][a-z]+ - [A-Za-z0-9 -_]+
+
+ignore:
+    - node_modules

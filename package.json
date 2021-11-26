@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx --no -- commitlint --edit && npx @ls-lint/ls-lint",
     "prepare": "husky install"
   },
   "author": "",
@@ -13,5 +13,8 @@
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
     "husky": "^7.0.4"
+  },
+  "dependencies": {
+    "@ls-lint/ls-lint": "^1.10.0"
   }
 }
