@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "check": "ls-lint && html-validate '*.html' && markdownlint '**/*.md' --ignore node_modules",
+    "check": "ls-lint && html-validate 'essays/*.html' && markdownlint '**/*.md' --ignore node_modules",
     "prepare": "husky install"
   },
   "author": "",
