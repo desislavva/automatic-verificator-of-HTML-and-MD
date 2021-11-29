@@ -34,15 +34,15 @@ Our convention for file names
 Мust follow the standards and there should be no unnecessary spaces
 around the characters/tags, trailing spaces.. This is checked automatically.
 
-## Tools - Functionality
+## Functionality - Tools
 
-* [commitlint](https://commitlint.js.org/#/), [husky](https://github.com/typicode/husky)
-Check commit messages
-* [ls-lint](https://github.com/loeffel-io/ls-lint) Check file name
-* [html-validate](https://gitlab.com/html-validate/html-validate/-/blob/master/README.md)
-Validate HTML files
-* [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli)
-Validate MD files
+* Check commit messages - [commitlint](https://commitlint.js.org/#/), [husky](https://github.com/typicode/husky)
+
+* Check file name - [ls-lint](https://github.com/loeffel-io/ls-lint)
+
+* Validate HTML files - [html-validate](https://gitlab.com/html-validate/html-validate/-/blob/master/README.md)
+
+* Validate MD files - [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli)
 
 [How the tools are integrated](#How-the-tools-are-integrated)
 
